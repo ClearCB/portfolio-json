@@ -1,0 +1,117 @@
+---
+import Section from "@/components/Section.astro";
+import GitHub from "@/icons/GitHub.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+import X from "@/icons/X.astro";
+import { getLocalizedData, replaceVariables } from "@/services/utils";
+import type { SocialIcon } from "@/types/social-icon";
+import IconLink from "../IconLink.astro";
+
+// Llama a la función para obtener los datos localizados
+const { cvData, content, localesAvailable } = await getLocalizedData(
+  Astro.request.url
+);
+
+// Desestructurar los datos
+const { name, label, image, location, profiles, email, phone } = cvData.basics;
+const { city, region } = location;
+const { sendEmailTo, callTo, visitSocialNet } = content.Hero;
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
+
+const SOCIAL_ICONS: SocialIcon = {
+  GitHub,
+  LinkedIn,
+  X,
+};
+---
+
+<Section>
+  <div
+    class="flex flex-col-reverse items-center justify-between gap-4 lg:flex-row"
+  >
+    <div
+      class="flex flex-col justify-center items-center text-center gap-2 pr-0 lg:justify-start lg:items-start lg:pr-8 lg:text-left"
+    >
+      <h1 class="text-4xl flex flex-row">
+        {name}
+        <footer class="flex gap-1 mx-5 text-xs text-gray-600 no-print">
+          {
+            localesAvailable.map((locale) => {
+              return (
+                <IconLink
+                  hrefContent={`/${locale === "es" ? "" : locale}`}
+                  target={"_self"}
+                >
+                  {locale}
+                </IconLink>
+              );
+            })
+          }
+        </footer>
+      </h1>
+
+      <h2 class="text-gray-400 font-medium text-balance">{label}</h2>
+      <span
+        class="flex items-center gap-1 -tracking-wider text-xs text-gray-600"
+      >
+        <WorldMap />
+        {city}, {region}
+      </span>
+      <footer class="flex gap-1 mt-2 text-xs text-gray-600 print">
+        {printInfo}
+      </footer>
+      <footer class="flex gap-1 mt-2 text-xs text-gray-600 no-print">
+        {
+          email && (
+            <IconLink
+              hrefContent={`mailto:${email}`}
+              titleContent={replaceVariables(sendEmailTo, { name })}
+            >
+              <Mail />
+            </IconLink>
+          )
+        }
+        {
+          phone && (
+            <IconLink
+              hrefContent={`tel:${phone}`}
+              titleContent={replaceVariables(callTo, { name, phone })}
+            >
+              <Phone />
+            </IconLink>
+          )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network];
+            return (
+              <IconLink
+                hrefContent={url}
+                titleContent={replaceVariables(visitSocialNet, {
+                  name,
+                  network,
+                })}
+              >
+                <Icon />
+              </IconLink>
+            );
+          })
+        }
+      </footer>
+    </div>
+    <figure>
+      <img
+        src={image}
+        alt={name}
+        class="object-cover rounded-xl border-r w-48"
+      />
+    </figure>
+  </div>
+</Section>

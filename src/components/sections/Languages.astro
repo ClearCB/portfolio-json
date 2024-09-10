@@ -1,0 +1,26 @@
+---
+import Section from "@/components/Section.astro";
+import { getLocalizedData } from "@/services/utils";
+
+// Llama a la función para obtener los datos localizados
+const { cvData, content } = await getLocalizedData(Astro.request.url);
+
+// Desestructurar los datos
+const { languages } = cvData;
+---
+
+<Section title={content.Languages.title}>
+  <ul class="flex flex-col gap-2 flex-wrap">
+    {
+      languages.map(({ language, fluency }) => {
+        return (
+          <li class="flex items-center gap-1 ">
+            <span class="bg-gray-200 rounded-md text-gray-600 py-1 px-2">
+              {language} : {fluency}
+            </span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>

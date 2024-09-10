@@ -1,0 +1,66 @@
+---
+import Section from "@/components/Section.astro";
+import { getLocalizedData } from "@/services/utils";
+
+// Llama a la función para obtener los datos localizados
+const { cvData, content } = await getLocalizedData(Astro.request.url);
+
+// Desestructurar los datos
+const education = cvData.education;
+---
+
+<Section title={content.Education.title}>
+  <ul class="flex flex-col gap-8">
+    {
+      education.map(({ institution, startDate, endDate, area, highlights }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+        const years = `${startYear} - ${endYear}`;
+
+        return (
+          <li>
+            <article>
+              <header class="flex justify-between items-start mb-1">
+                <div>
+                  <h3 class="font-medium text-gray-900">{institution}</h3>
+                </div>
+
+                <div>
+                  <time
+                    class="text-gray-400 text-sm min-w-28 cursor-default"
+                    datetime={startDate}
+                    data-title={startDate}
+                  >
+                    {startYear}
+                  </time>
+                  {" - "}
+                  <time
+                    class="text-gray-400 text-sm min-w-28 cursor-default"
+                    datetime={endDate}
+                    data-title={endDate}
+                  >
+                    {endYear}
+                  </time>
+                </div>
+              </header>
+
+              <footer>
+                <p>{area}</p>
+              </footer>
+              <footer class="flex flex-wrap gap-1 text-xs mt-5 ">
+                {highlights.map((highlight) => {
+                  return (
+                    <span class="rounded-md bg-gray-200 text-gray-600 text-xs font-medium py-1 px-3 ">
+                      {highlight}
+                    </span>
+                  );
+                })}
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>

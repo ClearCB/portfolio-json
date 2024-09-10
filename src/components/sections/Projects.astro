@@ -1,0 +1,85 @@
+---
+import Section from "@/components/Section.astro";
+import GitHub from "@/icons/GitHub.astro";
+import { getLocalizedData } from "@/services/utils";
+
+// Llama a la función para obtener los datos localizados
+const { cvData, content } = await getLocalizedData(Astro.request.url);
+
+// Desestructurar los datos
+const { projects } = cvData;
+---
+
+<Section title={content.Projects.title}>
+  <ul class="m-0 grid grid-cols-complex-grid gap-4 lg:-m-3">
+    {
+      projects.map(
+        ({ url, description, highlights, name, isActive, github }) => {
+          return (
+            <li>
+              <article class="flex flex-col justify-between rounded-lg border shadow-sm lg:shadow-none lg:border-gray-300 gap-4  p-4 h-full">
+                <header class="flex-1">
+                  <h3 class="mb-1 flex flex-row">
+                    <a
+                      class="text-gray-800 hover:underline"
+                      href={url}
+                      target="_blank"
+                      title={`${content.Projects.watchProject}: ${name}`}
+                    >
+                      {name}
+                    </a>
+                    {isActive && (
+                      <span class="mx-2 text-green-500 animate-flicker">
+                        {/* Active */}•
+                      </span>
+                    )}
+                    {github && (
+                      <a
+                        class="text-gray-800 hover:underline github-code-link mx-2"
+                        href={github}
+                        target="_blank"
+                        title={`${content.Projects.watchProjectCode}: ${name}`}
+                      >
+                        <GitHub />
+                      </a>
+                    )}
+                  </h3>
+                  <p class="text-xs mb-1">{description}</p>
+                </header>
+                <footer class="flex flex-wrap gap-1 text-xs">
+                  {highlights.map((highlight) => {
+                    return (
+                      <span class="rounded-md bg-gray-200 text-gray-600 text-xs font-medium py-1 px-3">
+                        {highlight}
+                      </span>
+                    );
+                  })}
+                </footer>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
+</Section>
+
+<style>
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media print {
+    article h3 span {
+      animation-name: none;
+    }
+  }
+</style>

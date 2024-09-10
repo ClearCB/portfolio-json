@@ -1,0 +1,49 @@
+---
+import Section from "@/components/Section.astro";
+import HTML from "@/icons/html.astro";
+import CSS from "@/icons/css.astro";
+import JavaScript from "@/icons/javascript.astro";
+import TypeScript from "@/icons/type.astro";
+import React from "@/icons/react.astro";
+import Node from "@/icons/node.astro";
+import MySQL from "@/icons/sql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import { getLocalizedData } from "@/services/utils";
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Tailwind,
+};
+
+// Llama a la función para obtener los datos localizados
+const { cvData, content } = await getLocalizedData(Astro.request.url);
+
+// Desestructurar los datos
+const { skills } = cvData;
+---
+
+<Section title={content.Skills.title}>
+  <ul class="inline-flex gap-2 flex-wrap">
+    {
+      skills.map(({ name }) => {
+        const Icon = SKILLS_ICONS[name];
+
+        return (
+          <li class="flex items-center bg-gray-200 rounded-md text-gray-600 gap-1 py-1 px-2">
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>

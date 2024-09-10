@@ -1,0 +1,229 @@
+{
+  "basics": {
+    "name": "Abel Casas García",
+    "label": "Junior Full Stack Developer with 2 years of experience and Computer Engineering student",
+    "image": "/me.webp",
+    "email": "abelcasasccb@gmail.com",
+    "phone": "+34 685402790",
+    "url": "https://acasas.dev",
+    "summary": "I have 2 years of experience as a Web Developer. Currently, I am studying for a degree in Computer Engineering at UOC. I live in Mallorca, Spain. I am learning GO, Blockchain, and Astro.",
+    "location": {
+      "address": "",
+      "postalCode": "07006",
+      "city": "Palma de Mallorca",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "acasas",
+        "url": "https://www.linkedin.com/in/acasasg"
+      },
+      {
+        "network": "GitHub",
+        "username": "ClearCB",
+        "url": "https://github.com/ClearCB"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Intricom Resources SL",
+      "position": "Full Stack Developer",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2023-03-11",
+      "endDate": null,
+      "summary": "Full stack developer working on an internal business product, implementing best practices and creating scalable, generic solutions.",
+      "highlights": [
+        ".NET",
+        "C#",
+        "GitLab",
+        "Docker",
+        "Aurelia Framework",
+        "NestJS",
+        "React"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitat Oberta de Catalunya",
+      "url": "https://www.uoc.edu/portal/en/index.html",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2024-01",
+      "endDate": null,
+      "score": null,
+      "highlights": []
+    },
+    {
+      "institution": "CIFP Francesc de Borja Moll",
+      "url": "https://www.cifpfbmoll.eu/",
+      "area": "Higher Degree in Web Application Development",
+      "studyType": "Higher Degree",
+      "startDate": "2022-09-22",
+      "endDate": "2024-06-21",
+      "score": "8.5",
+      "highlights": [
+        "Java",
+        "Python",
+        "Docker",
+        "GitHub",
+        "TDD",
+        "DDD",
+        "Spring",
+        "Flask",
+        "HTML",
+        "CSS",
+        "Linux",
+        "SQL",
+        "MySQL",
+        "MongoDB"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitLab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "IminApp API REST",
+      "isActive": false,
+      "description": "TFG - REST API developed in the Spring ecosystem, implementing hexagonal architecture.",
+      "highlights": [
+        "Spring",
+        "Java",
+        "Hexagonal Architecture",
+        "JWT",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "url": "#",
+      "github": "https://github.com/ClearCB/imin-app-api"
+    },
+    {
+      "name": "IminApp",
+      "isActive": false,
+      "description": "TFG - Application developed with Angular, using maps and geolocation to manage events.",
+      "highlights": [
+        "Angular",
+        "Geolocation",
+        "Events",
+        "Maps",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "url": "#",
+      "github": "https://github.com/ClearCB/imin-app"
+    },
+    {
+      "name": "Vanilla JS Form Validator",
+      "isActive": false,
+      "description": "Generic form validator, simulating fluent validations.",
+      "highlights": [
+        "JavaScript",
+        "Generic Validations",
+        "Forms"
+      ],
+      "url": "#",
+      "github": "https://github.com/ClearCB/custom-form-validator"
+    },
+    {
+      "name": "Ollivander's App",
+      "isActive": false,
+      "description": "Python-Flask project for inventory management.",
+      "highlights": [
+        "Flask",
+        "Python",
+        "Docker"
+      ],
+      "url": "#",
+      "github": "https://github.com/ClearCB/docker-db-app"
+    },
+    {
+      "name": "Rentator Bike",
+      "isActive": false,
+      "description": "My first transversal project. Static pages generated with Python and templates. Vanilla Python.",
+      "highlights": [
+        "Python",
+        "HTML",
+        "GitHub Actions"
+      ],
+      "url": "#",
+      "github": "https://github.com/ClearCB/rentator-bike"
+    }
+  ]
+}

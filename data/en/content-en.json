@@ -1,0 +1,28 @@
+{
+    "Hero": {
+        "title": "Hero",
+        "sendEmailTo": "Enviar email a ${name}",
+        "callTo": "Llamar por teléfono a ${name} al número ${phone}",
+        "visitSocialNet": "Visitar a ${name} en ${network}"
+    },
+    "About": {
+        "title": "Sobre mí"
+    },
+    "Education": {
+        "title": "Formación"
+    },
+    "Experience": {
+        "title": "Experiencia laboral"
+    },
+    "Languages": {
+        "title": "Idiomas"
+    },
+    "Projects": {
+        "title": "Proyectos",
+        "watchProject": "Watch project",
+        "watchProjectCode": "Watch source code"
+    },
+    "Skills": {
+        "title": "Habilidades"
+    }
+}
