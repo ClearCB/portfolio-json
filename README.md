@@ -23,8 +23,8 @@ Este proyecto es una plantilla minimalista para crear un portafolio personal, ba
 1. Clona este repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/astro-portfolio-multilenguaje.git
-    cd astro-portfolio-multilenguaje
+    git clone https://github.com/ClearCB/portfolio-json.git
+    cd portfolio-json
     ```
 
 2. Instala las dependencias:
