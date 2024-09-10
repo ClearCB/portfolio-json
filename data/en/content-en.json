@@ -1,28 +1,28 @@
 {
     "Hero": {
         "title": "Hero",
-        "sendEmailTo": "Enviar email a ${name}",
-        "callTo": "Llamar por teléfono a ${name} al número ${phone}",
-        "visitSocialNet": "Visitar a ${name} en ${network}"
+        "sendEmailTo": "Send email to ${name}",
+        "callTo": "Call ${name} at ${phone}",
+        "visitSocialNet": "Visit ${name} on ${network}"
     },
     "About": {
-        "title": "Sobre mí"
+        "title": "About Me"
     },
     "Education": {
-        "title": "Formación"
+        "title": "Education"
     },
     "Experience": {
-        "title": "Experiencia laboral"
+        "title": "Work Experience"
     },
     "Languages": {
-        "title": "Idiomas"
+        "title": "Languages"
     },
     "Projects": {
-        "title": "Proyectos",
-        "watchProject": "Watch project",
-        "watchProjectCode": "Watch source code"
+        "title": "Projects",
+        "watchProject": "View Project",
+        "watchProjectCode": "View Source Code"
     },
     "Skills": {
-        "title": "Habilidades"
+        "title": "Skills"
     }
 }

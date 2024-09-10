@@ -41,7 +41,7 @@ export interface Education {
     studyType: string;
     startDate: string;
     endDate: string | null; // Allowing null here
-    score: string;
+    score: string | null;
     highlights: string[];
 }
 
