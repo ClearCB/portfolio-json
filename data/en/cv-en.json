@@ -190,6 +190,18 @@
       "github": "https://github.com/ClearCB/imin-app"
     },
     {
+      "name": "Portfolio JSON",
+      "isActive": true,
+      "description": "Translatable and dynamic portfolio. Content generated from JSON file.",
+      "highlights": [
+        "Astro",
+        "JSON",
+        "JSON Schema"
+      ],
+      "url": "#",
+      "github": "https://github.com/ClearCB/portfolio-json"
+    },
+    {
       "name": "Vanilla JS Form Validator",
       "isActive": false,
       "description": "Generic form validator, simulating fluent validations.",
@@ -200,30 +212,6 @@
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/custom-form-validator"
-    },
-    {
-      "name": "Ollivander's App",
-      "isActive": false,
-      "description": "Python-Flask project for inventory management.",
-      "highlights": [
-        "Flask",
-        "Python",
-        "Docker"
-      ],
-      "url": "#",
-      "github": "https://github.com/ClearCB/docker-db-app"
-    },
-    {
-      "name": "Rentator Bike",
-      "isActive": false,
-      "description": "My first transversal project. Static pages generated with Python and templates. Vanilla Python.",
-      "highlights": [
-        "Python",
-        "HTML",
-        "GitHub Actions"
-      ],
-      "url": "#",
-      "github": "https://github.com/ClearCB/rentator-bike"
     }
   ],
   "volunteers": [],
