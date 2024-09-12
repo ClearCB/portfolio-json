@@ -1,0 +1,14 @@
+---
+import Section from "@/components/Section.astro";
+import { getLocalizedData } from "@/services/utils";
+
+// Llama a la función para obtener los datos localizados
+const { cvData, content } = await getLocalizedData(Astro.request.url);
+
+// Desestructurar los datos
+const { certificates } = cvData;
+---
+
+<Section title={content.Certificates.title}>
+  {certificates.map(({ date, issuer, name, url }) => {})}
+</Section>

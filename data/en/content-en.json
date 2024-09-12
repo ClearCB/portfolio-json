@@ -24,5 +24,23 @@
     },
     "Skills": {
         "title": "Skills"
+    },
+    "Volunteers": {
+        "title": "Volunteers"
+    },
+    "References": {
+        "title": "References"
+    },
+    "Publications": {
+        "title": "Publications"
+    },
+    "Interest": {
+        "title": "Interests"
+    },
+    "Awards": {
+        "title": "Awards"
+    },
+    "Certificates": {
+        "title": "Certificates"
     }
 }

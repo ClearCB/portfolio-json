@@ -7,6 +7,12 @@ export interface Content {
     Projects: ProjectsContent;
     Languages: LanguagesContent;
     Skills: SkillsContent;
+    Awards: AwardsContent;
+    Certificates: CertificatesContent;
+    Interest: InterestContent;
+    Publications: PublicationsContent;
+    References: ReferencesContent;
+    Volunteers: VolunteersContent;
 }
 
 export interface HeroContent {
@@ -38,5 +44,26 @@ export interface LanguagesContent {
 }
 
 export interface SkillsContent {
+    title: string;
+}
+export interface AwardsContent {
+    title: string;
+}
+
+export interface CertificatesContent {
+    title: string;
+}
+
+export interface InterestContent {
+    title: string;
+}
+
+export interface PublicationsContent {
+    title: string;
+}
+export interface ReferencesContent {
+    title: string;
+}
+export interface VolunteersContent {
     title: string;
 }

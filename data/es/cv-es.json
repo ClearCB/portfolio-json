@@ -31,7 +31,7 @@
     {
       "name": "Intricom Resources SL",
       "position": "Full Stack Developer",
-      "url": "https://twitch.tv/midudev",
+      "url": "https://www.intricom.es/",
       "startDate": "2023-03-11",
       "endDate": null,
       "summary": "Desarrollador full stack trabajando en un producto empresarial interno, implementando buenas prácticas y generando soluciones escalables y genéricas.",
@@ -226,6 +226,6 @@
       "github": "https://github.com/ClearCB/rentator-bike"
     }
   ],
-  "volunteer": [],
+  "volunteers": [],
   "publications": []
 }

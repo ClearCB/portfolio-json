@@ -110,7 +110,7 @@ export interface CvData {
         profiles: Profile[];
     };
     work: WorkExperience[];
-    volunteer: VolunteerExperience[];
+    volunteers: VolunteerExperience[];
     education: Education[];
     awards: Award[];
     certificates: Certificate[];

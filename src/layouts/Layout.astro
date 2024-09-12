@@ -25,13 +25,8 @@ const { activeLocale } = await getLocalizedData(Astro.request.url);
 </html>
 <style is:global>
   html {
-    font-family:
-      'Menlo',
-      'Monaco',
-      'Lucida Console',
-      "Courier New",
-      'Courier',
-      'monospace';
+    font-family: "Menlo", "Monaco", "Lucida Console", "Courier New", "Courier",
+      "monospace";
     background: #fff;
     letter-spacing: -0.025rem;
   }
@@ -92,6 +87,22 @@ const { activeLocale } = await getLocalizedData(Astro.request.url);
 
     article {
       break-inside: avoid;
+    }
+
+    article h3 span {
+      animation-name: none;
+    }
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
     }
   }
 </style>

@@ -1,0 +1,14 @@
+---
+import Section from "@/components/Section.astro";
+import { getLocalizedData } from "@/services/utils";
+
+// Llama a la función para obtener los datos localizados
+const { cvData, content } = await getLocalizedData(Astro.request.url);
+
+// Desestructurar los datos
+const { publications } = cvData;
+---
+
+<Section title={content.Publications.title}>
+  {publications.map(({ name, publisher, releaseDate, summary, url }) => {})}
+</Section>
