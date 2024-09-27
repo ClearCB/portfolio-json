@@ -3,14 +3,15 @@ import Section from "@/components/Section.astro";
 import { getLocalizedData } from "@/services/utils";
 
 // Llama a la función para obtener los datos localizados
-const { cvData, content } = await getLocalizedData(Astro.request.url);
+// const { cvData, content } = await getLocalizedData(Astro.request.url);
+const { content } = await getLocalizedData(Astro.request.url);
 
 // Desestructurar los datos
-const { volunteers } = cvData;
+// const { volunteers } = cvData;
 ---
 
 <Section title={content.Volunteers.title}>
-  {
+  <!-- {
     volunteers.map(
       ({
         endDate,
@@ -22,5 +23,5 @@ const { volunteers } = cvData;
         url,
       }) => {}
     )
-  }
+  } -->
 </Section>
