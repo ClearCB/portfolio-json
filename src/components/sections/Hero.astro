@@ -41,21 +41,21 @@ const SOCIAL_ICONS: SocialIcon = {
     >
       <h1 class="text-4xl flex flex-row">
         {name}
-        <footer class="flex gap-1 mx-5 text-xs text-gray-600 no-print">
-          {
-            localesAvailable.map((locale) => {
-              return (
-                <IconLink
-                  hrefContent={`/${locale === "es" ? "" : locale}`}
-                  target={"_self"}
-                >
-                  {locale}
-                </IconLink>
-              );
-            })
-          }
-        </footer>
       </h1>
+      <footer class="flex gap-1 text-xs text-gray-600 no-print">
+        {
+          localesAvailable.map((locale) => {
+            return (
+              <IconLink
+                hrefContent={`/${locale === "es" ? "" : locale}`}
+                target={"_self"}
+              >
+                {locale}
+              </IconLink>
+            );
+          })
+        }
+      </footer>
 
       <h2 class="text-gray-400 font-medium text-balance">{label}</h2>
       <span
