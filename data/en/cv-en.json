@@ -87,12 +87,12 @@
   "certificates": [],
   "skills": [
     {
-      "name": "HTML",
+      "name": "Html",
       "level": "",
       "keywords": []
     },
     {
-      "name": "CSS",
+      "name": "Css",
       "level": "",
       "keywords": []
     },
@@ -107,17 +107,27 @@
       "keywords": []
     },
     {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "TypeScript",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Node.js",
+      "name": "Node",
       "level": "",
       "keywords": []
     },
     {
-      "name": "SQL Server",
+      "name": "Sql",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQLServer",
       "level": "",
       "keywords": []
     },
@@ -138,6 +148,51 @@
     },
     {
       "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".Net",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hexagonal arch",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SOLID",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "KISS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DRY",
       "level": "",
       "keywords": []
     }
@@ -215,5 +270,23 @@
     }
   ],
   "volunteers": [],
-  "publications": []
+  "publications": [],
+  "moreAboutMe": [
+    {
+      "title": "Driver's License",
+      "description": "I hold a category B driver's license."
+    },
+    {
+      "title": "Availability to Travel",
+      "description": "I can relocate and travel anywhere."
+    },
+    {
+      "title": "Learning Ability",
+      "description": "I have a strong capacity to learn quickly and continuously develop my individual skills."
+    },
+    {
+      "title": "Teamwork",
+      "description": "I am capable of collaborating effectively in a team, contributing to creating a pleasant and productive work environment."
+    }
+  ]
 }

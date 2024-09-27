@@ -10,7 +10,7 @@ const education = cvData.education;
 ---
 
 <Section title={content.Education.title}>
-  <ul class="flex flex-col gap-8">
+  <ul class="flex flex-col gap-2">
     {
       education.map(({ institution, startDate, endDate, area, highlights }) => {
         const startYear = new Date(startDate).getFullYear();

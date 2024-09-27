@@ -97,6 +97,11 @@ export interface Project {
     github?: string; // Optional property
 }
 
+export interface MoreAboutItem {
+    title: string;
+    description: string;
+}
+
 export interface CvData {
     basics: {
         name: string;
@@ -116,6 +121,7 @@ export interface CvData {
     certificates: Certificate[];
     publications: Publication[];
     skills: Skill[];
+    moreAboutMe: MoreAboutItem[];
     languages: Language[];
     interests: Interest[];
     references: Reference[];

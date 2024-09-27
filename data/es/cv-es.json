@@ -87,12 +87,12 @@
   "certificates": [],
   "skills": [
     {
-      "name": "HTML",
+      "name": "Html",
       "level": "",
       "keywords": []
     },
     {
-      "name": "CSS",
+      "name": "Css",
       "level": "",
       "keywords": []
     },
@@ -107,17 +107,27 @@
       "keywords": []
     },
     {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "TypeScript",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Node.js",
+      "name": "Node",
       "level": "",
       "keywords": []
     },
     {
-      "name": "SQL Server",
+      "name": "Sql",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQLServer",
       "level": "",
       "keywords": []
     },
@@ -138,6 +148,51 @@
     },
     {
       "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".Net",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DDD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Arquitectura hexagonal",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SOLID",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "KISS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DRY",
       "level": "",
       "keywords": []
     }
@@ -215,5 +270,23 @@
     }
   ],
   "volunteers": [],
-  "publications": []
+  "publications": [],
+  "moreAboutMe": [
+    {
+      "title": "Carnet de conducir",
+      "description": "poseo el carnet de conducir B."
+    },
+    {
+      "title": "Disponibilidad para viajar",
+      "description": "puedo reubicarme y viajar a cualquier lugar."
+    },
+    {
+      "title": "Capacidad de aprendizaje",
+      "description": "poseo una gran capacidad para aprender rápidamente y desarrollar mis competencias individuales de manera continua."
+    },
+    {
+      "title": "Trabajo en equipo",
+      "description": "estoy capacitado para colaborar efectivamente en equipo, contribuyendo a crear un entorno de trabajo agradable y productivo."
+    }
+  ]
 }

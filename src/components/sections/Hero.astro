@@ -9,10 +9,12 @@ import X from "@/icons/X.astro";
 import { getLocalizedData, replaceVariables } from "@/services/utils";
 import type { SocialIcon } from "@/types/social-icon";
 import IconLink from "../IconLink.astro";
+import PrintButton from "../PrintButton.astro";
+import Print from "@/icons/Print.astro";
 
 // Llama a la función para obtener los datos localizados
 const { cvData, content, localesAvailable } = await getLocalizedData(
-  Astro.request.url
+	Astro.request.url
 );
 
 // Desestructurar los datos
@@ -26,93 +28,89 @@ const linkedUrl = linkedInfo?.url;
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
 const SOCIAL_ICONS: SocialIcon = {
-  GitHub,
-  LinkedIn,
-  X,
+	GitHub,
+	LinkedIn,
+	X,
 };
 ---
 
 <Section>
-  <div
-    class="flex flex-col-reverse items-center justify-between gap-4 lg:flex-row"
-  >
-    <div
-      class="flex flex-col justify-center items-center text-center gap-2 pr-0 lg:justify-start lg:items-start lg:pr-8 lg:text-left"
-    >
-      <h1 class="text-4xl flex flex-row">
-        {name}
-      </h1>
-      <footer class="flex gap-1 text-xs text-gray-600 no-print">
-        {
-          localesAvailable.map((locale) => {
-            return (
-              <IconLink
-                hrefContent={`/${locale === "es" ? "" : locale}`}
-                target={"_self"}
-              >
-                {locale}
-              </IconLink>
-            );
-          })
-        }
-      </footer>
+	<div
+		class="flex flex-col-reverse items-center justify-between gap-4 lg:flex-row">
+		<div
+			class="flex flex-col justify-center items-center text-center gap-2 pr-0 lg:justify-start lg:items-start lg:pr-8 lg:text-left">
+			<h1 class="text-4xl flex flex-row">
+				{name}
+			</h1>
+			<footer class="flex gap-1 text-xs text-gray-600 no-print">
+				{
+					localesAvailable.map((locale) => {
+						return (
+							<IconLink
+								hrefContent={`/${locale === "es" ? "" : locale}`}
+								target={"_self"}>
+								{locale}
+							</IconLink>
+						);
+					})
+				}
+			</footer>
 
-      <h2 class="text-gray-400 font-medium text-balance">{label}</h2>
-      <span
-        class="flex items-center gap-1 -tracking-wider text-xs text-gray-600"
-      >
-        {countryCode}
-        <WorldMap />
-        {city}, {region}, {postalCode}
-      </span>
-      <footer class="flex gap-1 mt-2 text-xs text-gray-600 print">
-        {printInfo}
-      </footer>
-      <footer class="flex gap-1 mt-2 text-xs text-gray-600 no-print">
-        {
-          email && (
-            <IconLink
-              hrefContent={`mailto:${email}`}
-              titleContent={replaceVariables(sendEmailTo, { name })}
-            >
-              <Mail />
-            </IconLink>
-          )
-        }
-        {
-          phone && (
-            <IconLink
-              hrefContent={`tel:${phone}`}
-              titleContent={replaceVariables(callTo, { name, phone })}
-            >
-              <Phone />
-            </IconLink>
-          )
-        }
-        {
-          profiles.map(({ network, url }) => {
-            const Icon = SOCIAL_ICONS[network];
-            return (
-              <IconLink
-                hrefContent={url}
-                titleContent={replaceVariables(visitSocialNet, {
-                  name,
-                  network,
-                })}
-              >
-                <Icon />
-              </IconLink>
-            );
-          })
-        }
-      </footer>
-    </div>
-    <figure>
-      <img
-        src={image}
-        alt={name}
-        class="object-cover rounded-xl border-r w-48"
-      />
-    </figure>
-  </div>
+			<h2 class="text-gray-400 font-medium text-balance">{label}</h2>
+			<span
+				class="flex items-center gap-1 -tracking-wider text-xs text-gray-600">
+				{countryCode}
+				<WorldMap />
+				{city}, {region}, {postalCode}
+			</span>
+			<footer class="flex gap-1 mt-2 text-xs text-gray-600 print">
+				{printInfo}
+			</footer>
+			<footer class="flex gap-1 mt-2 text-xs text-gray-600 no-print">
+				<PrintButton>
+					<Print />
+				</PrintButton>
+				{
+					email && (
+						<IconLink
+							hrefContent={`mailto:${email}`}
+							titleContent={replaceVariables(sendEmailTo, { name })}>
+							<Mail />
+						</IconLink>
+					)
+				}
+				{
+					phone && (
+						<IconLink
+							hrefContent={`tel:${phone}`}
+							titleContent={replaceVariables(callTo, { name, phone })}>
+							<Phone />
+						</IconLink>
+					)
+				}
+				{
+					profiles.map(({ network, url }) => {
+						const Icon = SOCIAL_ICONS[network];
+						return (
+							<IconLink
+								hrefContent={url}
+								titleContent={replaceVariables(visitSocialNet, {
+									name,
+									network,
+								})}>
+								<Icon />
+							</IconLink>
+						);
+					})
+				}
+			</footer>
+		</div>
+		<figure>
+			<img
+				src={image}
+				alt={name}
+				class="object-cover rounded-xl border-r w-48"
+			/>
+		</figure>
+	</div>
 </Section>

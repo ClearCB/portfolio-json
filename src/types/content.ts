@@ -7,6 +7,7 @@ export interface Content {
     Projects: ProjectsContent;
     Languages: LanguagesContent;
     Skills: SkillsContent;
+    MoreAboutMe: MoreAboutMeContent;
     Awards: AwardsContent;
     Certificates: CertificatesContent;
     Interest: InterestContent;
@@ -40,6 +41,10 @@ export interface ProjectsContent {
 }
 
 export interface LanguagesContent {
+    title: string;
+}
+
+export interface MoreAboutMeContent {
     title: string;
 }
 

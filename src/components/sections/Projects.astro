@@ -10,7 +10,7 @@ const { cvData, content } = await getLocalizedData(Astro.request.url);
 const { projects } = cvData;
 ---
 
-<Section title={content.Projects.title}>
+<Section title={content.Projects.title} printable={false}>
   <ul class="m-0 grid grid-cols-complex-grid gap-4 lg:-m-3">
     {
       projects.map(

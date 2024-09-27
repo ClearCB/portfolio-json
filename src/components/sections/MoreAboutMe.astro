@@ -6,17 +6,17 @@ import { getLocalizedData } from "@/services/utils";
 const { cvData, content } = await getLocalizedData(Astro.request.url);
 
 // Desestructurar los datos
-const { languages } = cvData;
+const { moreAboutMe } = cvData;
 ---
 
-<Section title={content.Languages.title}>
+<Section title={content.MoreAboutMe.title}>
   <ul class="flex flex-col gap-2 flex-wrap">
     {
-      languages.map(({ language, fluency }) => {
+      moreAboutMe.map(({ title, description }) => {
         return (
-          <li class="flex items-center gap-1 ">
-            <span class="bg-gray-200 rounded-md text-gray-600 py-1 px-2 text-sm">
-              {language} : {fluency}
+          <li class="flex items-center">
+            <span class="rounded-md text-gray-600 px-2 text-sm">
+              - <span class="font-bold">{title}</span>: {description}
             </span>
           </li>
         );
