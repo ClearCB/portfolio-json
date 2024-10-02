@@ -273,20 +273,28 @@
   "publications": [],
   "moreAboutMe": [
     {
-      "title": "Carnet de conducir",
-      "description": "poseo el carnet de conducir B."
+      "title": "Responsable",
+      "description": ""
     },
     {
-      "title": "Disponibilidad para viajar",
-      "description": "puedo reubicarme y viajar a cualquier lugar."
+      "title": "Comprometido",
+      "description": ""
     },
     {
       "title": "Capacidad de aprendizaje",
-      "description": "poseo una gran capacidad para aprender rápidamente y desarrollar mis competencias individuales de manera continua."
+      "description": ""
     },
     {
       "title": "Trabajo en equipo",
-      "description": "estoy capacitado para colaborar efectivamente en equipo, contribuyendo a crear un entorno de trabajo agradable y productivo."
+      "description": ""
+    },
+    {
+      "title": "Disponibilidad para viajar",
+      "description": ""
+    },
+    {
+      "title": "Carnet de conducir",
+      "description": ""
     }
   ]
 }

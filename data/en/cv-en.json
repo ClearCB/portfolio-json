@@ -273,20 +273,28 @@
   "publications": [],
   "moreAboutMe": [
     {
-      "title": "Driver's License",
-      "description": "I hold a category B driver's license."
+      "title": "Responsible",
+      "description": ""
     },
     {
-      "title": "Availability to Travel",
-      "description": "I can relocate and travel anywhere."
+      "title": "Committed",
+      "description": ""
     },
     {
-      "title": "Learning Ability",
-      "description": "I have a strong capacity to learn quickly and continuously develop my individual skills."
+      "title": "Ability to Learn",
+      "description": ""
     },
     {
       "title": "Teamwork",
-      "description": "I am capable of collaborating effectively in a team, contributing to creating a pleasant and productive work environment."
+      "description": ""
+    },
+    {
+      "title": "Willingness to Travel",
+      "description": ""
+    },
+    {
+      "title": "Driver's License",
+      "description": ""
     }
   ]
 }

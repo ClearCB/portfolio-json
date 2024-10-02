@@ -1,7 +1,3 @@
----
-const {  target } = Astro.props;
----
-
 <button
 id="print-button"
   class="inline-flex items-center justify-center border border-gray-200 p-1 h-8 w-8 rounded-md text-gray-800 transition-all ease-in duration-300 hover:bg-gray-300 hover:border-gray-600"
@@ -11,12 +7,8 @@ id="print-button"
 
 
 <script>
-  // Obtiene el botón por ID
   const button = document.getElementById("print-button");
-
-  // Maneja el clic en el botón.S
   button?.addEventListener("click", () => {
-      // Llama a la función handlePrint
-      window.print(); // O usa handlePrint() si prefieres
+      window.print();
   });
 </script>
