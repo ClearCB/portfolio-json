@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Abel Casas García",
-    "label": "Junior Full Stack Developer with 2 years of experience and Computer Engineering student",
+    "label": "Backend Engineer | Software Architect | AI & Automation Specialist",
     "image": "/me.webp",
     "email": "acasasdev@gmail.com",
     "phone": "+34 685402790",
     "url": "https://acasas.dev",
-    "summary": "I have 2 years of experience as a Web Developer. Currently, I am studying for a degree in Computer Engineering at UOC. I live in Mallorca, Spain. I am learning Java, GO, Blockchain, and Astro.",
+    "summary": "Software Engineer specialized in backend development, robust architectural design, and the integration of Artificial Intelligence into enterprise systems. With a proven track record in high-availability and business-critical platforms, I focus on building clean, scalable, and decoupled systems through strict application of SOLID principles and Hexagonal Architecture. In parallel, I architect and build solutions leveraging Large Language Models (LLMs) and autonomous AI agents, streamlining the software development lifecycle and elevating operational efficiency via advanced automations.",
     "location": {
       "address": "",
       "postalCode": "07006",
@@ -29,57 +29,89 @@
   },
   "work": [
     {
-      "name": "Intricom Resources SL",
+      "name": "idealista",
+      "position": "Backend Engineer",
+      "url": "https://www.idealista.com/",
+      "startDate": "2025-04-01",
+      "endDate": null,
+      "summary": "Design, development, and optimization of high-availability distributed backend services and critical integrations. Technical leadership in process automation through Artificial Intelligence and advanced software engineering methodologies.",
+      "highlights": [
+        "Designed and implemented robust microservices and event-driven architectures to ensure scalable and decoupled backend ecosystems.",
+        "Integrated LLMs and autonomous AI agents strategically for code generation, smart debugging, workflow analysis, and automated technical documentation.",
+        "Championed modern methodologies like SDD (Software/Specification Driven Development) to increase predictability and significantly accelerate Time-to-Market.",
+        "Optimized overall backend ecosystem performance, including efficient data access layer integration with enterprise Oracle databases.",
+        "Enforced stability standards through rigorous application of Clean Code, SOLID principles, Hexagonal Architecture, and comprehensive automated testing."
+      ]
+    },
+    {
+      "name": "RIU Hotels & Resorts",
+      "position": "Backend Developer",
+      "url": "https://www.riu.com/",
+      "startDate": "2024-10-01",
+      "endDate": "2025-04-01",
+      "summary": "Evolution and maintenance of the company's core transactional platform, an ecosystem critical to the hotel group's global operations.",
+      "highlights": [
+        "Refactored and optimized critical legacy modules within the CORE system to elevate performance and reliability standards.",
+        "Proactively analyzed internal applications to identify bottlenecks, streamline data flows, and maximize software performance.",
+        "Resolved high-severity production incidents quickly, ensuring continuous business operations and high systems availability."
+      ]
+    },
+    {
+      "name": "INTRICOM RESOURCES SL",
       "position": "Full Stack Developer",
       "url": "https://www.intricom.es/",
       "startDate": "2023-03-11",
-      "endDate": null,
-      "summary": "Full stack developer working on an internal business product, implementing best practices and creating scalable, generic solutions.",
+      "endDate": "2024-10-01",
+      "summary": "Conceptualization and development of the internal corporate CORE product focused on workflow automation and rapid project scaffolding.",
       "highlights": [
-        ".NET",
-        "C#",
-        "GitLab",
-        "Docker",
-        "Aurelia Framework",
-        "NestJS",
-        "React"
+        "Architected and developed the transactional core utilizing modern web engineering tech (.NET/C#, NestJS, Docker) ensuring minimal technical debt.",
+        "Designed a highly generic and modular software structure, radically reducing initialization times for spin-off business projects.",
+        "Guaranteed infrastructure scalability by efficiently leveraging containerization and scalable data persistence patterns."
       ]
     }
   ],
   "education": [
     {
+      "institution": "IEDIB (Institut d'Ensenyaments A Distància de les Illes Balears)",
+      "url": "https://www.iedib.eu/",
+      "area": "Specialization Program in Artificial Intelligence and Big Data",
+      "studyType": "Postgraduate Specialization",
+      "startDate": "2025-09",
+      "endDate": "2026-06",
+      "score": null,
+      "highlights": [
+        "Large Language Models (LLMs) & Advanced Prompt Engineering",
+        "Autonomous Intelligent Agents & Cognitive Process Automation",
+        "Natural Language Processing (NLP) & Machine Learning Pipelines",
+        "Big Data Architectures & Large Scale Data Ingestion"
+      ]
+    },
+    {
       "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/en/index.html",
-      "area": "Computer Engineering",
+      "url": "https://www.uoc.edu/",
+      "area": "Bachelor's Degree in Computer Engineering",
       "studyType": "Bachelor's Degree",
       "startDate": "2024-01",
       "endDate": null,
       "score": null,
-      "highlights": []
+      "highlights": [
+        "Advanced Data Structures and Algorithms",
+        "Theory of Computation & Modern Computer Architecture",
+        "Advanced Database Management Systems"
+      ]
     },
     {
       "institution": "CIFP Francesc de Borja Moll",
       "url": "https://www.cifpfbmoll.eu/",
-      "area": "Higher Degree in Web Application Development",
-      "studyType": "Higher Degree",
-      "startDate": "2022-09-22",
-      "endDate": "2024-06-21",
+      "area": "Higher Degree in Web Application Development (DAW)",
+      "studyType": "Higher Technical Degree",
+      "startDate": "2022-09",
+      "endDate": "2024-06",
       "score": "8.5",
       "highlights": [
-        "Java",
-        "Python",
-        "Docker",
-        "GitHub",
-        "TDD",
-        "DDD",
-        "Spring",
-        "Flask",
-        "HTML",
-        "CSS",
-        "Linux",
-        "SQL",
-        "MySQL",
-        "MongoDB"
+        "Software Engineering driven by TDD (Test-Driven Development) and DDD (Domain-Driven Design)",
+        "Enterprise Ecosystems with Java and Spring Boot",
+        "RESTful API Design & SQL/NoSQL Database Management (MySQL, Oracle, MongoDB)"
       ]
     }
   ],
@@ -87,112 +119,67 @@
   "certificates": [],
   "skills": [
     {
-      "name": "Html",
+      "name": "Java & Spring Boot",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Css",
+      "name": ".NET / C#",
       "level": "",
       "keywords": []
     },
     {
-      "name": "JavaScript",
+      "name": "TypeScript / Node.js (NestJS)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Bootstrap",
+      "name": "Artificial Intelligence (LLMs & AI Agents)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Tailwind",
+      "name": "Hexagonal Architecture & Clean Architecture",
       "level": "",
       "keywords": []
     },
     {
-      "name": "TypeScript",
+      "name": "Domain-Driven Design (DDD)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Node",
+      "name": "SOLID Principles / Clean Code",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Sql",
+      "name": "RESTful API Design",
       "level": "",
       "keywords": []
     },
     {
-      "name": "SQLServer",
+      "name": "Event-Driven Architecture",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Git",
+      "name": "Databases (Oracle, SQL Server, MySQL, MongoDB)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "GitLab",
+      "name": "Docker & Containerization",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Java",
+      "name": "CI/CD & DevOps (GitLab, GitHub Actions)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "React",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": ".Net",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C#",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TDD",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DDD",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Hexagonal arch",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SOLID",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "KISS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DRY",
+      "name": "Test-Driven Development (TDD)",
       "level": "",
       "keywords": []
     }
@@ -204,97 +191,66 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Full Professional Proficiency"
     },
     {
       "language": "Catalan",
-      "fluency": "Advanced"
+      "fluency": "Full Professional Proficiency"
     }
   ],
   "interests": [],
   "references": [],
   "projects": [
     {
-      "name": "IminApp API REST",
-      "isActive": false,
-      "description": "TFG - REST API developed in the Spring ecosystem, implementing hexagonal architecture.",
+      "name": "IminApp Enterprise API",
+      "isActive": true,
+      "description": "Robust enterprise-grade REST API engineered for intelligent, location-aware event management. Crafted for high fault-tolerance and strict structural separation.",
       "highlights": [
-        "Spring",
-        "Java",
-        "Hexagonal Architecture",
-        "JWT",
-        "Docker",
-        "GitHub Actions"
+        "Pure implementation of Hexagonal Architecture and DDD to segregate business workflows entirely from core frameworks.",
+        "Advanced security protocols leveraging JSON Web Tokens (JWT) and geospatial query optimization on persistence layers.",
+        "Automated continuous integration/deployment pipeline via GitHub Actions alongside comprehensive Docker environments."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/imin-app-api"
     },
     {
-      "name": "IminApp",
-      "isActive": false,
-      "description": "TFG - Application developed with Angular, using maps and geolocation to manage events.",
+      "name": "IminApp Core Client",
+      "isActive": true,
+      "description": "High-performance web client seamlessly integrated with the IminApp API ecosystem, tailored for real-time spatial data processing and geolocation tracking.",
       "highlights": [
-        "Angular",
-        "Geolocation",
-        "Events",
-        "Maps",
-        "Docker",
-        "GitHub Actions"
+        "Advanced modular front-end architecture leveraging Angular coupled with reactive state-management patterns.",
+        "Smooth integration of map components and reverse geocoding APIs optimized heavily for client-side rendering.",
+        "Scalable client infrastructure prepared for decoupled deployments in production using modern containers."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/imin-app"
     },
     {
-      "name": "Portfolio JSON",
+      "name": "Dynamic Schema Portfolio",
       "isActive": true,
-      "description": "Translatable and dynamic portfolio. Content generated from JSON file.",
+      "description": "Blazing fast, modular, internationalized (i18n) portfolio engine powered and compiled strictly via strongly-typed JSON data schemas.",
       "highlights": [
-        "Astro",
-        "JSON",
-        "JSON Schema"
+        "Achieved near-zero load times utilizing Astro's signature Islands Architecture for optimal asset rendering.",
+        "Embraced Open-Closed architecture, enabling full content updates and localization without touching foundational markup code."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/portfolio-json"
-    },
-    {
-      "name": "Vanilla JS Form Validator",
-      "isActive": false,
-      "description": "Generic form validator, simulating fluent validations.",
-      "highlights": [
-        "JavaScript",
-        "Generic Validations",
-        "Forms"
-      ],
-      "url": "#",
-      "github": "https://github.com/ClearCB/custom-form-validator"
     }
   ],
   "volunteers": [],
   "publications": [],
   "moreAboutMe": [
     {
-      "title": "Responsible",
-      "description": ""
+      "title": "Sustainable Architecture",
+      "description": "I truly believe high-quality software must be readable, maintainable, and loosely coupled. I write systems with the future developer in mind."
     },
     {
-      "title": "Committed",
-      "description": ""
+      "title": "Product-Led Mindset",
+      "description": "I don't just write functional code lines; I analyze the direct business impact, grasp operational necessities, and design optimal software solutions."
     },
     {
-      "title": "Ability to Learn",
-      "description": ""
-    },
-    {
-      "title": "Teamwork",
-      "description": ""
-    },
-    {
-      "title": "Willingness to Travel",
-      "description": ""
-    },
-    {
-      "title": "Driver's License",
-      "description": ""
+      "title": "AI-First Automation",
+      "description": "I integrate Artificial Intelligence into core engineering pipelines to eliminate repetitive overhead, maximizing delivery speeds safely."
     }
   ]
 }

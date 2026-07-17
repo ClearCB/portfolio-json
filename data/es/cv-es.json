@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Abel Casas García",
-    "label": "Junior Full Stack Developer con 2 años de experiencia y estudiante de Grado en Ingeniería Informática",
+    "label": "Backend Engineer | Software Architect | AI & Automation Specialist",
     "image": "/me.webp",
     "email": "acasasdev@gmail.com",
     "phone": "+34 685402790",
     "url": "https://acasas.dev",
-    "summary": "Tengo 2 años de experiencia como Desarrollador Web. Actualmente, estoy cursando el Grado en Ingeniería Informática en la UOC. Resido en Mallorca, España. Estoy aprendiendo Java, GO, Blockchain y Astro.",
+    "summary": "Ingeniero de Software especializado en el desarrollo backend, diseño de arquitecturas robustas y la integración de Inteligencia Artificial en sistemas empresariales. Con una sólida trayectoria en plataformas críticas y de alta disponibilidad, me enfoco en crear código limpio, escalable y desacoplado mediante la aplicación rigurosa de principios SOLID y Arquitectura Hexagonal. Paralelamente, diseño e implemento soluciones basadas en modelos masivos de lenguaje (LLMs) y agentes inteligentes autónomos, optimizando el ciclo de vida del desarrollo de software y potenciando la eficiencia operativa mediante automatizaciones avanzadas.",
     "location": {
       "address": "",
       "postalCode": "07006",
@@ -29,57 +29,89 @@
   },
   "work": [
     {
-      "name": "Intricom Resources SL",
+      "name": "idealista",
+      "position": "Backend Engineer",
+      "url": "https://www.idealista.com/",
+      "startDate": "2025-04-01",
+      "endDate": null,
+      "summary": "Diseño, desarrollo y optimización de servicios backend distribuidos e integraciones críticas de alta disponibilidad. Liderazgo técnico en la automatización de procesos mediante Inteligencia Artificial y metodologías avanzadas de ingeniería de software.",
+      "highlights": [
+        "Diseño e implementación de microservicios robustos y arquitecturas orientadas a eventos para garantizar sistemas escalables y desacoplados.",
+        "Integración estratégica de modelos LLM y agentes de IA autónomos aplicados a la generación de código, debugging inteligente, análisis de procesos y documentación técnica.",
+        "Adopción e impulso de metodologías modernas como SDD (Software/Specification Driven Development) para maximizar la predictibilidad y acelerar el Time-to-Market.",
+        "Optimización del rendimiento del ecosistema backend e integración eficiente con bases de datos relacionales corporativas (Oracle DB).",
+        "Aseguramiento de la estabilidad mediante diseño basado en Clean Code, principios SOLID, Arquitectura Hexagonal y testing automatizado."
+      ]
+    },
+    {
+      "name": "RIU Hotels & Resorts",
+      "position": "Desarrollador Backend",
+      "url": "https://www.riu.com/",
+      "startDate": "2024-10-01",
+      "endDate": "2025-04-01",
+      "summary": "Evolución y mantenimiento correctivo/evolutivo de la plataforma transaccional CORE de la compañía, un ecosistema crítico para la operativa global del grupo hotelero.",
+      "highlights": [
+        "Refactorización y optimización de módulos críticos del sistema CORE para elevar los estándares de rendimiento y fiabilidad.",
+        "Análisis proactivo e identificación de cuellos de botella en aplicativos internos, optimizando flujos de datos y la eficiencia global del software.",
+        "Resolución expedita de incidencias complejas de producción, asegurando la alta disponibilidad y la continuidad del negocio."
+      ]
+    },
+    {
+      "name": "INTRICOM RESOURCES SL",
       "position": "Full Stack Developer",
       "url": "https://www.intricom.es/",
       "startDate": "2023-03-11",
-      "endDate": null,
-      "summary": "Desarrollador full stack trabajando en un producto empresarial interno, implementando buenas prácticas y generando soluciones escalables y genéricas.",
+      "endDate": "2024-10-01",
+      "summary": "Conceptualización y desarrollo del producto CORE empresarial interno orientado a la automatización de flujos y aprovisionamiento ágil de proyectos.",
       "highlights": [
-        ".NET",
-        "C#",
-        "GitLab",
-        "Docker",
-        "Aurelia Framework",
-        "NestJS",
-        "React"
+        "Arquitectura y desarrollo del core transaccional usando tecnologías de vanguardia (.NET/C#, NestJS, Docker) garantizando un acoplamiento mínimo.",
+        "Diseño de una arquitectura genérica y altamente modular que redujo drásticamente el tiempo de inicialización de nuevos proyectos de negocio.",
+        "Garantía de la escalabilidad de la infraestructura corporativa combinando contenedores y patrones eficientes de persistencia de datos."
       ]
     }
   ],
   "education": [
     {
+      "institution": "IEDIB (Institut d'Ensenyaments A Distància de les Illes Balears)",
+      "url": "https://www.iedib.eu/",
+      "area": "Curso de Especialización en Inteligencia Artificial y Big Data",
+      "studyType": "Postgrado / Especialización",
+      "startDate": "2025-09",
+      "endDate": "2026-06",
+      "score": null,
+      "highlights": [
+        "Modelos de Lenguaje Masivos (LLMs) y Prompt Engineering Avanzado",
+        "Agentes Inteligentes y Automatización de Procesos Cognitivos",
+        "Procesamiento del Lenguaje Natural (NLP) y Machine Learning",
+        "Arquitecturas de Big Data e Ingesta de Datos a Gran Escala"
+      ]
+    },
+    {
       "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniería Informática",
+      "url": "https://www.uoc.edu/",
+      "area": "Grado en Ingeniería Informática",
       "studyType": "Grado",
       "startDate": "2024-01",
       "endDate": null,
       "score": null,
-      "highlights": []
+      "highlights": [
+        "Estructura de Datos y Algoritmos Avanzados",
+        "Teoría de la Computación y Arquitectura de Computadores",
+        "Gestión Avanzada de Bases de Datos"
+      ]
     },
     {
       "institution": "CIFP Francesc de Borja Moll",
       "url": "https://www.cifpfbmoll.eu/",
-      "area": "Grado Superior en Desarrollo de Aplicaciones Web",
-      "studyType": "Grado Superior",
-      "startDate": "2022-09-22",
-      "endDate": "2024-06-21",
+      "area": "Técnico Superior en Desarrollo de Aplicaciones Web (DAW)",
+      "studyType": "Ciclo Formativo de Grado Superior",
+      "startDate": "2022-09",
+      "endDate": "2024-06",
       "score": "8.5",
       "highlights": [
-        "Java",
-        "Python",
-        "Docker",
-        "GitHub",
-        "TDD",
-        "DDD",
-        "Spring",
-        "Flask",
-        "HTML",
-        "CSS",
-        "Linux",
-        "SQL",
-        "MySQL",
-        "MongoDB"
+        "Ingeniería de Software basada en TDD (Test-Driven Development) y DDD (Domain-Driven Design)",
+        "Ecosistemas Enterprise con Java y Spring Boot",
+        "Diseño de APIs RESTful y gestión de bases de datosSQL/NoSQL (MySQL, Oracle, MongoDB)"
       ]
     }
   ],
@@ -87,112 +119,67 @@
   "certificates": [],
   "skills": [
     {
-      "name": "Html",
+      "name": "Java & Spring Boot",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Css",
+      "name": ".NET / C#",
       "level": "",
       "keywords": []
     },
     {
-      "name": "JavaScript",
+      "name": "TypeScript / Node.js (NestJS)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Bootstrap",
+      "name": "Inteligencia Artificial (LLMs & IA Agents)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Tailwind",
+      "name": "Arquitectura Hexagonal & Clean Architecture",
       "level": "",
       "keywords": []
     },
     {
-      "name": "TypeScript",
+      "name": "Domain-Driven Design (DDD)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Node",
+      "name": "Principios SOLID / Clean Code",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Sql",
+      "name": "Diseño de APIs RESTful",
       "level": "",
       "keywords": []
     },
     {
-      "name": "SQLServer",
+      "name": "Event-Driven Architecture",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Git",
+      "name": "Bases de Datos (Oracle, SQL Server, MySQL, MongoDB)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "GitLab",
+      "name": "Docker & Contenedores",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Java",
+      "name": "CI/CD & DevOps (GitLab, GitHub Actions)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "React",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": ".Net",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "C#",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TDD",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DDD",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Arquitectura hexagonal",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SOLID",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "KISS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DRY",
+      "name": "Test-Driven Development (TDD)",
       "level": "",
       "keywords": []
     }
@@ -204,97 +191,66 @@
     },
     {
       "language": "Inglés",
-      "fluency": "Avanzado"
+      "fluency": "Competencia profesional completa"
     },
     {
       "language": "Catalán",
-      "fluency": "Avanzado"
+      "fluency": "Competencia profesional completa"
     }
   ],
   "interests": [],
   "references": [],
   "projects": [
     {
-      "name": "IminApp API REST",
-      "isActive": false,
-      "description": "TFG - API REST desarrollada en el ecosistema Spring, implementando arquitectura hexagonal.",
+      "name": "IminApp Enterprise API",
+      "isActive": true,
+      "description": "API REST robusta de nivel empresarial para la gestión inteligente de eventos geolocalizados. Diseñada bajo un desacoplamiento estricto y alta tolerancia a fallos.",
       "highlights": [
-        "Spring",
-        "Java",
-        "Arquitectura Hexagonal",
-        "JWT",
-        "Docker",
-        "GitHub Actions"
+        "Implementación pura de Arquitectura Hexagonal y DDD para separar completamente la lógica del negocio de los frameworks.",
+        "Seguridad avanzada mediante JSON Web Tokens (JWT) y persistencia escalable con optimización de consultas espaciales.",
+        "Pipeline de despliegue automatizado continuo a través de GitHub Actions y Dockerización completa de los entornos."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/imin-app-api"
     },
     {
-      "name": "IminApp",
-      "isActive": false,
-      "description": "TFG - Aplicación desarrollada con Angular, utilizando mapas y geolocalización para gestionar eventos.",
+      "name": "IminApp Core Client",
+      "isActive": true,
+      "description": "Cliente web de alto rendimiento integrado de forma fluida con el ecosistema IminApp API, enfocado en el procesamiento reactivo de datos espaciales y geolocalización en tiempo real.",
       "highlights": [
-        "Angular",
-        "Geolocalización",
-        "Eventos",
-        "Mapas",
-        "Docker",
-        "GitHub Actions"
+        "Desarrollo modular avanzado con Angular utilizando patrones reactivos de manejo de estado.",
+        "Integración fluida de APIs de mapas y geocodificación inversa con alta optimización en renderizado del lado del cliente.",
+        "Arquitectura escalable preparada para despliegues independientes en entornos productivos mediante contenedores."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/imin-app"
     },
     {
-      "name": "Portfolio JSON",
+      "name": "Dynamic Schema Portfolio",
       "isActive": true,
-      "description": "Porfolio traducible y dinámico. Contenido generado por archivo JSON.",
+      "description": "Plataforma de portafolio ultra-rápida, modular e internacionalizada (i18n), cuyo motor de datos se alimenta estrictamente en tiempo de compilación a través de esquemas JSON tipados.",
       "highlights": [
-        "Astro",
-        "JSON",
-        "JSON Schema"
+        "Optimización de rendimiento web extrema mediante la arquitectura de islas de Astro, logrando tiempos de carga mínimos.",
+        "Diseño basado en el principio Open-Closed: el portafolio se expande y traduce sin necesidad de modificar el código fuente visual."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/portfolio-json"
-    },
-    {
-      "name": "Formulario validador Vanilla JS",
-      "isActive": false,
-      "description": "Validador de formularios genérico, simulando validaciones fluidas.",
-      "highlights": [
-        "JavaScript",
-        "Validaciones Genéricas",
-        "Formularios"
-      ],
-      "url": "#",
-      "github": "https://github.com/ClearCB/custom-form-validator"
     }
   ],
   "volunteers": [],
   "publications": [],
   "moreAboutMe": [
     {
-      "title": "Responsable",
-      "description": ""
+      "title": "Arquitectura Sostenible",
+      "description": "Creo firmemente que el software de calidad debe ser fácil de leer, mantenible y desacoplado. Escribo código pensando en el desarrollador del futuro."
     },
     {
-      "title": "Comprometido",
-      "description": ""
+      "title": "Mentalidad Product-Led",
+      "description": "No me limito a picar líneas de código; analizo el impacto de negocio, entiendo las necesidades operativas y busco soluciones técnicas eficientes."
     },
     {
-      "title": "Capacidad de aprendizaje",
-      "description": ""
-    },
-    {
-      "title": "Trabajo en equipo",
-      "description": ""
-    },
-    {
-      "title": "Disponibilidad para viajar",
-      "description": ""
-    },
-    {
-      "title": "Carnet de conducir",
-      "description": ""
+      "title": "Automatización e IA como Estándar",
+      "description": "Integro la Inteligencia Artificial de forma nativa en los flujos de ingeniería para eliminar tareas repetitivas y maximizar la velocidad de entrega sin comprometer la seguridad."
     }
   ]
 }

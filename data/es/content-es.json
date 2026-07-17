@@ -1,32 +1,32 @@
 {
     "Hero": {
-        "title": "Hero",
+        "title": "Inicio",
         "sendEmailTo": "Enviar email a ${name}",
         "callTo": "Llamar por teléfono a ${name} al número ${phone}",
-        "visitSocialNet": "Visitar a ${name} en ${network}"
+        "visitSocialNet": "Visitar perfil de ${name} en ${network}"
     },
     "About": {
         "title": "Sobre mí"
     },
     "Education": {
-        "title": "Formación"
+        "title": "Formación y Especialización"
     },
     "MoreAboutMe": {
-        "title": "Más sobre mí."
+        "title": "Filosofía de Ingeniería"
     },
     "Experience": {
-        "title": "Experiencia laboral"
+        "title": "Trayectoria Profesional"
     },
     "Languages": {
         "title": "Idiomas"
     },
     "Projects": {
-        "title": "Proyectos",
+        "title": "Proyectos Destacados",
         "watchProject": "Ver proyecto",
         "watchProjectCode": "Ver código fuente"
     },
     "Skills": { 
-        "title": "Habilidades"
+        "title": "Ecosistema Técnico"
     },
     "Volunteers": {
         "title": "Voluntariados"
@@ -41,9 +41,9 @@
         "title": "Intereses"
     },
     "Awards": {
-        "title": "Awards"
+        "title": "Premios"
     },
     "Certificates": {
-        "title": "Certificados"
+        "title": "Certificaciones"
     }
 }
