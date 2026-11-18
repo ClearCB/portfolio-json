@@ -50,6 +50,7 @@
       "url": "https://www.idealista.com/",
       "startDate": "2025-04-01",
       "endDate": null,
+      "location": "Remoto",
       "summary": "Desarrollo y evolución de servicios backend distribuidos e integraciones críticas de alta disponibilidad, con liderazgo técnico en la automatización de procesos mediante IA.",
       "highlights": [
         "Diseño y desarrollo microservicios backend y arquitecturas orientadas a eventos, escalables y desacoplados.",

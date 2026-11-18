@@ -50,6 +50,7 @@
       "url": "https://www.idealista.com/",
       "startDate": "2025-04-01",
       "endDate": null,
+      "location": "Remote",
       "summary": "Development and evolution of distributed backend services and business-critical, high-availability integrations, with technical leadership in AI-driven process automation.",
       "highlights": [
         "Design and build scalable, decoupled backend microservices and event-driven architectures.",
