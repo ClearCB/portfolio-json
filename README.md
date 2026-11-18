@@ -64,3 +64,7 @@ Este proyecto toma como base los siguientes repositorios:
 ## Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## CV en PDF (formato Harvard)
+
+El botón de imprimir del Hero imprime `/cv.html` (o `/en/cv.html`) desde un iframe oculto; esa página se genera en build desde `data/*/cv-*.json` con `src/services/harvard-cv.js`. Qué entra en la página impresa se controla con `meta.print` y los flags `print` / `printHighlights` de cada item (ver el README de `cv-generator`).

@@ -1,12 +1,28 @@
 {
+  "meta": {
+    "print": {
+      "summary": true,
+      "sections": {
+        "work": {
+          "highlights": 3,
+          "summary": false
+        },
+        "education": {
+          "highlights": 0
+        },
+        "projects": false,
+        "skills": true
+      }
+    }
+  },
   "basics": {
     "name": "Abel Casas García",
-    "label": "Backend Engineer | Software Architect | AI & Automation Specialist",
+    "label": "Backend Engineer · Arquitectura de software e IA aplicada",
     "image": "/me.webp",
     "email": "acasasdev@gmail.com",
-    "phone": "+34 685402790",
+    "phone": "+34 685 40 27 90",
     "url": "https://acasas.dev",
-    "summary": "Ingeniero de Software especializado en el desarrollo backend, diseño de arquitecturas robustas y la integración de Inteligencia Artificial en sistemas empresariales. Con una sólida trayectoria en plataformas críticas y de alta disponibilidad, me enfoco en crear código limpio, escalable y desacoplado mediante la aplicación rigurosa de principios SOLID y Arquitectura Hexagonal. Paralelamente, diseño e implemento soluciones basadas en modelos masivos de lenguaje (LLMs) y agentes inteligentes autónomos, optimizando el ciclo de vida del desarrollo de software y potenciando la eficiencia operativa mediante automatizaciones avanzadas.",
+    "summary": "Backend Engineer especializado en Java y Spring Boot, con experiencia en plataformas críticas de alta disponibilidad. Diseño sistemas escalables y desacoplados aplicando Arquitectura Hexagonal, DDD y principios SOLID, e integro LLMs y agentes de IA para automatizar y acelerar el ciclo de desarrollo.",
     "location": {
       "address": "",
       "postalCode": "07006",
@@ -17,7 +33,7 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "acasas",
+        "username": "acasasg",
         "url": "https://www.linkedin.com/in/acasasg"
       },
       {
@@ -34,13 +50,13 @@
       "url": "https://www.idealista.com/",
       "startDate": "2025-04-01",
       "endDate": null,
-      "summary": "Diseño, desarrollo y optimización de servicios backend distribuidos e integraciones críticas de alta disponibilidad. Liderazgo técnico en la automatización de procesos mediante Inteligencia Artificial y metodologías avanzadas de ingeniería de software.",
+      "summary": "Desarrollo y evolución de servicios backend distribuidos e integraciones críticas de alta disponibilidad, con liderazgo técnico en la automatización de procesos mediante IA.",
       "highlights": [
-        "Diseño e implementación de microservicios robustos y arquitecturas orientadas a eventos para garantizar sistemas escalables y desacoplados.",
-        "Integración estratégica de modelos LLM y agentes de IA autónomos aplicados a la generación de código, debugging inteligente, análisis de procesos y documentación técnica.",
-        "Adopción e impulso de metodologías modernas como SDD (Software/Specification Driven Development) para maximizar la predictibilidad y acelerar el Time-to-Market.",
-        "Optimización del rendimiento del ecosistema backend e integración eficiente con bases de datos relacionales corporativas (Oracle DB).",
-        "Aseguramiento de la estabilidad mediante diseño basado en Clean Code, principios SOLID, Arquitectura Hexagonal y testing automatizado."
+        "Diseño y desarrollo microservicios backend y arquitecturas orientadas a eventos, escalables y desacoplados.",
+        "Integro LLMs y agentes de IA en el flujo de desarrollo: generación de código, depuración, análisis de procesos y documentación técnica.",
+        "Impulso la adopción de Spec-Driven Development (SDD) para ganar previsibilidad y reducir el time-to-market.",
+        "Optimizo el rendimiento de los servicios y su acceso a datos sobre Oracle.",
+        "Aplico Clean Code, SOLID, Arquitectura Hexagonal y testing automatizado para garantizar la estabilidad del sistema."
       ]
     },
     {
@@ -49,25 +65,27 @@
       "url": "https://www.riu.com/",
       "startDate": "2024-10-01",
       "endDate": "2025-04-01",
-      "summary": "Evolución y mantenimiento correctivo/evolutivo de la plataforma transaccional CORE de la compañía, un ecosistema crítico para la operativa global del grupo hotelero.",
+      "summary": "Evolución y mantenimiento de la plataforma transaccional CORE, crítica para la operativa global del grupo hotelero.",
       "highlights": [
-        "Refactorización y optimización de módulos críticos del sistema CORE para elevar los estándares de rendimiento y fiabilidad.",
-        "Análisis proactivo e identificación de cuellos de botella en aplicativos internos, optimizando flujos de datos y la eficiencia global del software.",
-        "Resolución expedita de incidencias complejas de producción, asegurando la alta disponibilidad y la continuidad del negocio."
-      ]
+        "Refactoricé y optimicé módulos críticos del sistema CORE, mejorando su rendimiento y fiabilidad.",
+        "Identifiqué y eliminé cuellos de botella en aplicaciones internas, optimizando los flujos de datos.",
+        "Resolví incidencias complejas de producción, garantizando la alta disponibilidad y la continuidad del negocio."
+      ],
+      "location": "Palma de Mallorca, España"
     },
     {
-      "name": "INTRICOM RESOURCES SL",
+      "name": "Intricom Resources",
       "position": "Full Stack Developer",
       "url": "https://www.intricom.es/",
       "startDate": "2023-03-11",
       "endDate": "2024-10-01",
-      "summary": "Conceptualización y desarrollo del producto CORE empresarial interno orientado a la automatización de flujos y aprovisionamiento ágil de proyectos.",
+      "summary": "Desarrollo del producto CORE interno para automatizar flujos de trabajo y acelerar la puesta en marcha de nuevos proyectos.",
       "highlights": [
-        "Arquitectura y desarrollo del core transaccional usando tecnologías de vanguardia (.NET/C#, NestJS, Docker) garantizando un acoplamiento mínimo.",
-        "Diseño de una arquitectura genérica y altamente modular que redujo drásticamente el tiempo de inicialización de nuevos proyectos de negocio.",
-        "Garantía de la escalabilidad de la infraestructura corporativa combinando contenedores y patrones eficientes de persistencia de datos."
-      ]
+        "Diseñé y desarrollé el núcleo transaccional del producto con .NET/C#, NestJS y Docker, con bajo acoplamiento entre módulos.",
+        "Construí una arquitectura genérica y modular que redujo notablemente el tiempo de arranque de nuevos proyectos.",
+        "Aseguré la escalabilidad de la plataforma combinando contenedores y patrones eficientes de persistencia."
+      ],
+      "location": "Palma de Mallorca, España"
     }
   ],
   "education": [
@@ -75,15 +93,15 @@
       "institution": "IEDIB (Institut d'Ensenyaments A Distància de les Illes Balears)",
       "url": "https://www.iedib.eu/",
       "area": "Curso de Especialización en Inteligencia Artificial y Big Data",
-      "studyType": "Postgrado / Especialización",
+      "studyType": "Curso de Especialización (FP)",
       "startDate": "2025-09",
       "endDate": "2026-06",
       "score": null,
       "highlights": [
-        "Modelos de Lenguaje Masivos (LLMs) y Prompt Engineering Avanzado",
-        "Agentes Inteligentes y Automatización de Procesos Cognitivos",
-        "Procesamiento del Lenguaje Natural (NLP) y Machine Learning",
-        "Arquitecturas de Big Data e Ingesta de Datos a Gran Escala"
+        "Grandes modelos de lenguaje (LLMs) y prompt engineering",
+        "Agentes inteligentes y automatización de procesos",
+        "Procesamiento del lenguaje natural (NLP) y machine learning",
+        "Arquitecturas Big Data e ingesta de datos a gran escala"
       ]
     },
     {
@@ -95,9 +113,9 @@
       "endDate": null,
       "score": null,
       "highlights": [
-        "Estructura de Datos y Algoritmos Avanzados",
-        "Teoría de la Computación y Arquitectura de Computadores",
-        "Gestión Avanzada de Bases de Datos"
+        "Estructuras de datos y algoritmos",
+        "Teoría de la computación y arquitectura de computadores",
+        "Bases de datos avanzadas"
       ]
     },
     {
@@ -109,9 +127,9 @@
       "endDate": "2024-06",
       "score": "8.5",
       "highlights": [
-        "Ingeniería de Software basada en TDD (Test-Driven Development) y DDD (Domain-Driven Design)",
-        "Ecosistemas Enterprise con Java y Spring Boot",
-        "Diseño de APIs RESTful y gestión de bases de datosSQL/NoSQL (MySQL, Oracle, MongoDB)"
+        "Ingeniería de software con TDD y DDD",
+        "Desarrollo enterprise con Java y Spring Boot",
+        "Diseño de APIs REST y bases de datos SQL/NoSQL (MySQL, Oracle, MongoDB)"
       ]
     }
   ],
@@ -119,7 +137,12 @@
   "certificates": [],
   "skills": [
     {
-      "name": "Java & Spring Boot",
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
       "level": "",
       "keywords": []
     },
@@ -129,59 +152,119 @@
       "keywords": []
     },
     {
-      "name": "TypeScript / Node.js (NestJS)",
+      "name": "TypeScript",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Inteligencia Artificial (LLMs & IA Agents)",
+      "name": "NestJS",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Arquitectura Hexagonal & Clean Architecture",
+      "name": "Docker",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Domain-Driven Design (DDD)",
+      "name": "GitLab CI",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Principios SOLID / Clean Code",
+      "name": "GitHub Actions",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Diseño de APIs RESTful",
+      "name": "Oracle (PL/SQL)",
       "level": "",
-      "keywords": []
+      "keywords": [],
+      "group": "Bases de datos"
+    },
+    {
+      "name": "SQL Server",
+      "level": "",
+      "keywords": [],
+      "group": "Bases de datos"
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": [],
+      "group": "Bases de datos"
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": [],
+      "group": "Bases de datos"
+    },
+    {
+      "name": "Arquitectura Hexagonal",
+      "level": "",
+      "keywords": [],
+      "group": "Arquitectura y prácticas"
+    },
+    {
+      "name": "DDD",
+      "level": "",
+      "keywords": [],
+      "group": "Arquitectura y prácticas"
+    },
+    {
+      "name": "Microservicios",
+      "level": "",
+      "keywords": [],
+      "group": "Arquitectura y prácticas"
     },
     {
       "name": "Event-Driven Architecture",
       "level": "",
-      "keywords": []
+      "keywords": [],
+      "group": "Arquitectura y prácticas"
     },
     {
-      "name": "Bases de Datos (Oracle, SQL Server, MySQL, MongoDB)",
+      "name": "APIs REST",
       "level": "",
-      "keywords": []
+      "keywords": [],
+      "group": "Arquitectura y prácticas"
     },
     {
-      "name": "Docker & Contenedores",
+      "name": "TDD",
       "level": "",
-      "keywords": []
+      "keywords": [],
+      "group": "Arquitectura y prácticas"
     },
     {
-      "name": "CI/CD & DevOps (GitLab, GitHub Actions)",
+      "name": "SOLID / Clean Code",
       "level": "",
-      "keywords": []
+      "keywords": [],
+      "group": "Arquitectura y prácticas"
     },
     {
-      "name": "Test-Driven Development (TDD)",
+      "name": "LLMs",
       "level": "",
-      "keywords": []
+      "keywords": [],
+      "group": "IA aplicada"
+    },
+    {
+      "name": "Agentes de IA",
+      "level": "",
+      "keywords": [],
+      "group": "IA aplicada"
+    },
+    {
+      "name": "Prompt engineering",
+      "level": "",
+      "keywords": [],
+      "group": "IA aplicada"
+    },
+    {
+      "name": "Spec-Driven Development",
+      "level": "",
+      "keywords": [],
+      "group": "IA aplicada"
     }
   ],
   "languages": [
@@ -204,11 +287,11 @@
     {
       "name": "IminApp Enterprise API",
       "isActive": true,
-      "description": "API REST robusta de nivel empresarial para la gestión inteligente de eventos geolocalizados. Diseñada bajo un desacoplamiento estricto y alta tolerancia a fallos.",
+      "description": "API REST para la gestión de eventos geolocalizados, diseñada con bajo acoplamiento y tolerancia a fallos.",
       "highlights": [
-        "Implementación pura de Arquitectura Hexagonal y DDD para separar completamente la lógica del negocio de los frameworks.",
-        "Seguridad avanzada mediante JSON Web Tokens (JWT) y persistencia escalable con optimización de consultas espaciales.",
-        "Pipeline de despliegue automatizado continuo a través de GitHub Actions y Dockerización completa de los entornos."
+        "Arquitectura Hexagonal y DDD para aislar la lógica de negocio de los frameworks.",
+        "Autenticación con JWT y consultas espaciales optimizadas.",
+        "CI/CD con GitHub Actions y entornos dockerizados."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/imin-app-api"
@@ -216,11 +299,11 @@
     {
       "name": "IminApp Core Client",
       "isActive": true,
-      "description": "Cliente web de alto rendimiento integrado de forma fluida con el ecosistema IminApp API, enfocado en el procesamiento reactivo de datos espaciales y geolocalización en tiempo real.",
+      "description": "Cliente web en Angular para IminApp, centrado en datos geoespaciales y geolocalización en tiempo real.",
       "highlights": [
-        "Desarrollo modular avanzado con Angular utilizando patrones reactivos de manejo de estado.",
-        "Integración fluida de APIs de mapas y geocodificación inversa con alta optimización en renderizado del lado del cliente.",
-        "Arquitectura escalable preparada para despliegues independientes en entornos productivos mediante contenedores."
+        "Arquitectura modular con gestión de estado reactiva.",
+        "Integración de mapas y geocodificación inversa con renderizado optimizado.",
+        "Despliegue independiente mediante contenedores."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/imin-app"
@@ -228,10 +311,11 @@
     {
       "name": "Dynamic Schema Portfolio",
       "isActive": true,
-      "description": "Plataforma de portafolio ultra-rápida, modular e internacionalizada (i18n), cuyo motor de datos se alimenta estrictamente en tiempo de compilación a través de esquemas JSON tipados.",
+      "description": "Portfolio multilenguaje (i18n) construido con Astro y generado en build a partir de JSON tipado (esquema JSON Resume).",
       "highlights": [
-        "Optimización de rendimiento web extrema mediante la arquitectura de islas de Astro, logrando tiempos de carga mínimos.",
-        "Diseño basado en el principio Open-Closed: el portafolio se expande y traduce sin necesidad de modificar el código fuente visual."
+        "Arquitectura de islas de Astro para tiempos de carga mínimos.",
+        "Contenido y traducciones editables sin tocar componentes (principio Open-Closed).",
+        "Genera el CV en PDF con formato Harvard a partir de los mismos datos."
       ],
       "url": "#",
       "github": "https://github.com/ClearCB/portfolio-json"

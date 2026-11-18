@@ -1,5 +1,10 @@
+---
+const { cvUrl } = Astro.props;
+---
+
 <button
 id="print-button"
+  data-cv-url={cvUrl}
   class="inline-flex items-center justify-center border border-gray-200 p-1 h-8 w-8 rounded-md text-gray-800 transition-all ease-in duration-300 hover:bg-gray-300 hover:border-gray-600"
 >
   <slot />
@@ -7,8 +12,20 @@ id="print-button"
 
 
 <script>
+  // Imprime el CV en formato Harvard (cvUrl) desde un iframe oculto en lugar de la página actual.
   const button = document.getElementById("print-button");
   button?.addEventListener("click", () => {
-      window.print();
+      const frame = document.createElement("iframe");
+      frame.style.cssText = "position:fixed;right:0;bottom:0;width:0;height:0;border:0;";
+      frame.src = button.dataset.cvUrl ?? "/cv.html";
+      frame.onload = async () => {
+          const win = frame.contentWindow;
+          if (!win) return;
+          await win.document.fonts.ready;
+          win.addEventListener("afterprint", () => frame.remove());
+          win.focus();
+          win.print();
+      };
+      document.body.appendChild(frame);
   });
 </script>

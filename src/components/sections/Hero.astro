@@ -13,7 +13,7 @@ import PrintButton from "../PrintButton.astro";
 import Print from "@/icons/Print.astro";
 
 // Llama a la función para obtener los datos localizados
-const { cvData, content, localesAvailable } = await getLocalizedData(
+const { cvData, content, localesAvailable, activeLocale } = await getLocalizedData(
 	Astro.request.url
 );
 
@@ -67,7 +67,7 @@ const SOCIAL_ICONS: SocialIcon = {
 				{printInfo}
 			</footer>
 			<footer class="flex gap-1 mt-2 text-xs text-gray-600 no-print">
-				<PrintButton>
+				<PrintButton cvUrl={activeLocale === "es" ? "/cv.html" : `/${activeLocale}/cv.html`}>
 					<Print />
 				</PrintButton>
 				{
